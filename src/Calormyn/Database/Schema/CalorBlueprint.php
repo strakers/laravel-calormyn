@@ -25,4 +25,9 @@ class CalorBlueprint extends Blueprint
 
         $this->timestamp('updated_at', $precision)->default(DB::raw('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'));
     }
+
+    public function fullString( $column )
+    {
+        return $this->string( $column, 255 )->charset('utf8');
+    }
 }
