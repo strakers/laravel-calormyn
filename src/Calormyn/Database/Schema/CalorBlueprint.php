@@ -14,7 +14,7 @@ class CalorBlueprint extends Blueprint
 {
 
     /**
-     * Add nullable creation and update timestamps to the table.
+     * Add default timestamp creation and update timestamps to the table.
      *
      * @param  int  $precision
      * @return void
