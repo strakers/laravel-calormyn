@@ -1,7 +1,7 @@
 {
     "name": "calormyn/database",
     "description": "A collection of Laravel-related database tools",
-    "type": "library",
+    "type": "package",
     "require": {
         "php": ">=7",
         "illuminate/database": "^5.9@dev"
