@@ -1,6 +1,6 @@
 {
-    "name": "calormyn/database",
-    "description": "A collection of Laravel-related database tools",
+    "name": "strakez/calormyn",
+    "description": "A collection of Laravel-related tools and augments",
     "type": "package",
     "require": {
         "php": ">=7",
@@ -15,5 +15,10 @@
             "email": "contact@atrakez.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",,
+    "autoload": {
+        "psr-0" : {
+            "Calormyn\\Database" : "src"
+        }
+    }
 }
